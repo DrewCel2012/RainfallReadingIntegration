@@ -6,3 +6,6 @@
 /RainfallReading.Service/obj
 /.vs/RainfallReading.Integration
 /RainfallReading.Model
+/RainfallReading.Api/bin/Debug/net6.0
+/RainfallReading.Api/obj
+/RainfallReading.Api/RainfallReading.Api.csproj.user
