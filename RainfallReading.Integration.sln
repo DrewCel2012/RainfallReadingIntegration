@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainfallReading.Model", "RainfallReading.Model\RainfallReading.Model.csproj", "{BD5752BD-456B-4B0C-A284-BC261F8C753A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RainfallReading.Model", "RainfallReading.Model\RainfallReading.Model.csproj", "{BD5752BD-456B-4B0C-A284-BC261F8C753A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainfallReading.Service", "RainfallReading.Service\RainfallReading.Service.csproj", "{C0BC06B0-EBC5-402A-A522-6A1473250D71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BD5752BD-456B-4B0C-A284-BC261F8C753A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD5752BD-456B-4B0C-A284-BC261F8C753A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD5752BD-456B-4B0C-A284-BC261F8C753A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BC06B0-EBC5-402A-A522-6A1473250D71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BC06B0-EBC5-402A-A522-6A1473250D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BC06B0-EBC5-402A-A522-6A1473250D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BC06B0-EBC5-402A-A522-6A1473250D71}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
