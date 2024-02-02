@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RainfallReading.Model", "Ra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainfallReading.Service", "RainfallReading.Service\RainfallReading.Service.csproj", "{C0BC06B0-EBC5-402A-A522-6A1473250D71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainfallReading.Api", "RainfallReading.Api\RainfallReading.Api.csproj", "{C3AE2195-005D-4DD7-82F2-CE9B4B230639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C0BC06B0-EBC5-402A-A522-6A1473250D71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0BC06B0-EBC5-402A-A522-6A1473250D71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0BC06B0-EBC5-402A-A522-6A1473250D71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AE2195-005D-4DD7-82F2-CE9B4B230639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AE2195-005D-4DD7-82F2-CE9B4B230639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AE2195-005D-4DD7-82F2-CE9B4B230639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AE2195-005D-4DD7-82F2-CE9B4B230639}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

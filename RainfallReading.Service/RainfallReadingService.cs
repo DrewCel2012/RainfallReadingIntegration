@@ -34,7 +34,7 @@ namespace RainfallReading.Service
         public async Task<RainfallReadingResponse> GetRainfallReadingsAsync(string stationId, int? count = 10)
         {
             var url = $"id/stations/{stationId}/readings?_sorted&_limit={count}";
-            var httpClient = _httpClientFactory.CreateClient(_configuration["Rainfall.Api:ClientName"]);
+            var httpClient = _httpClientFactory.CreateClient(_configuration["RainfallReading.Api:ClientName"]);
 
             string content = string.Empty;
             var response = await httpClient.GetAsync(url);
